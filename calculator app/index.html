@@ -11,7 +11,9 @@
 <body>
     <section class="calculator">
         <head>
-            <section id="screen">
+            <section class="header">
+                <input type="text" id="screen" >
+               
             </section>
             
         </head>
@@ -19,28 +21,28 @@
             <section id="button">
                 <div id="numbers" class="numbers">
 
-                    <div value="7" id="7">7️</div>
-                    <div value="8" id="8">8️</div>
-                    <div value="9" id="9">9️</div>
-                                     
-                    <div value="4" id="4">4️</div>
-                    <div value="5" id="5">5️</div>
-                    <div value="6" id="6">6️</div>
-                                      
-                    <div value="1" id="1">1️</div>
-                    <div value="2" id="2">2️</div>
-                    <div value="3" id="3">3️</div>
-             
-                    <div value="." id=".">▪</div>
-                    <div value="0" id="0">0️</div>
-                    <div value="equal-to" id="equal-to">=</div>
+                    <button onclick="button('7')" class="button">7️</button>
+                    <button onclick="button('8')" class="button">8️</button>
+                    <button onclick="button('9')" class="button">9️</button>
 
+                    <button onclick="button('4')" class="button">4️</button>
+                    <button onclick="button('5')" class="button">5️</button>
+                    <button onclick="button('6')" class="button">6️</button>
+
+                    <button onclick="button('1')" class="button">1️</button>
+                    <button onclick="button('2')" class="button">2️</button>
+                    <button onclick="button('3')" class="button">3️</button>
+
+                    <button onclick="button('.')" class="button">▪</button>
+                    <button onclick="button('0')" class="button">0️</button>
+                    <button onclick="result()" class="button">=</button>
                 </div>
                 <div id="sign">
-                    <div value="/" id="/">➗</div>
-                    <div value="*" id="*">✖</div>
-                    <div value="-" id="-">➖</div>
-                    <div value="+" id="+">➕</div>
+                    <button onclick="button('/')" class="button">/</button>
+                    <button onclick="button('*')" class="button">*</button>
+                    <button onclick="button('-')" class="button">-</button>
+                    <button onclick="button('+')" class="button">+</button>
+                    
                 </div>
             </section>
         </main>

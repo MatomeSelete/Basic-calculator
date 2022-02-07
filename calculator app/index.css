@@ -22,6 +22,7 @@ body {
 }
 
 
+
 #screen {
     background: rgb(173, 170, 170);
     border: 3px solid black;
@@ -30,6 +31,7 @@ body {
     margin: auto;
     border-radius: 5px;
     margin-bottom: 10px;
+    font-size: 40px;
 }
 
 #button {
@@ -37,6 +39,7 @@ body {
     width: 242px;
     height: 257px;
     margin: auto;
+    margin-right: 10px;
 
 }
 
@@ -52,7 +55,7 @@ body {
     margin-left: 2px;
 }
 
-#numbers div, #sign div, #cancel {
+#numbers button, #sign button, #cancel {
     display: flex;
     display: inline-block;
     justify-content: space-around;
@@ -64,4 +67,10 @@ body {
     margin-bottom: 5px;
     padding: 25px;
     color: rgb(7, 7, 7);
+}
+
+#numbers button:hover, #sign button:hover {
+    background: rgb(75, 74, 74);
+    width: 38px;
+    height: 58px;
 }
